@@ -1,0 +1,10 @@
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\bin\Debug\netcoreapp1.1\Esportswatcher.deps.json
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\bin\Debug\netcoreapp1.1\Esportswatcher.runtimeconfig.json
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\bin\Debug\netcoreapp1.1\Esportswatcher.runtimeconfig.dev.json
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\bin\Debug\netcoreapp1.1\Esportswatcher.dll
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\obj\Debug\netcoreapp1.1\Esportswatcher.csprojResolveAssemblyReference.cache
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\obj\Debug\netcoreapp1.1\Esportswatcher.csproj.CoreCompileInputs.cache
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\obj\Debug\netcoreapp1.1\Esportswatcher.AssemblyInfo.cs
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\bin\Debug\netcoreapp1.1\Esportswatcher.pdb
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\obj\Debug\netcoreapp1.1\Esportswatcher.dll
+C:\Users\ludde\OneDrive\Dokument\Esportswatcher\Esportswatcher\Esportswatcher\Esportswatcher\obj\Debug\netcoreapp1.1\Esportswatcher.pdb
