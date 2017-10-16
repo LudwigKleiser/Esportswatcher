@@ -11,55 +11,79 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
 
-    @*<div id="userContainer"><span class="glyphicon glyphicon-user"></span>Username</div>*@
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">EsportsWatcher</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Tournaments</a></li>
+                    <li><a href="#">Streams</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
 
     <div id="followedContainer">
         <ul style="width:70%; height:70%;" class="list-group">
-            <li class="list-group-item list-group-item-success">Followed games</li>
+            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Followed games</li>
 
 
-            <li class="list-group-item list-group-item-info"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li class="list-group-item list-group-item-info">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+            <li class="list-group-item"><img id="logo"src="~/img/pubg-logo1.png" />Playerunknown's battlegrounds <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+            <li class="list-group-item">
+                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png"  /> League of legends <span style="color:red;" class="glyphicon glyphicon-minus"></span>
             </li>
         </ul>
     </div>
-
+  
     <div id="ongoingContainer">
-        <ul style="width:70%; height:70%;" class="list-group">
-            <li class="list-group-item list-group-item-success">Ongoing tournaments</li>
+        <ul style="width:90%; height:70%;" class="list-group">
+            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Ongoing tournaments</li>
 
 
-            <li class="list-group-item list-group-item-info"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li class="list-group-item list-group-item-info">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+            <li style="width: 100%" class="list-group-item"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Worlds quarter finals <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+            <li class="list-group-item">
+                <img id="logo" src="~/img/csgo-logo.png"  />Eleague season 7 Play-Ins asdasdasdasd <span style="color:red;" class="glyphicon glyphicon-minus"></span>
             </li>
         </ul>
     </div>
 
     <div id="upcomingContainer">
         <ul style="width:70%; height:70%;" class="list-group">
-            <li class="list-group-item list-group-item-success">Upcoming tournaments</li>
+            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Upcoming tournaments</li>
 
 
-            <li class="list-group-item list-group-item-info"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li class="list-group-item list-group-item-info">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+            <li class="list-group-item"><img id="logo" src="~/img/pubg-logo1.png" />  Twitchcon invitational  10/11-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+            <li class="list-group-item">
+                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Lcs season 8 16/2-18 <span style="color:red;" class="glyphicon glyphicon-minus"></span>
             </li>
         </ul>
     </div>
-
+    
     <div id="previousContainer">
         <ul style="width:70%; height:70%;" class="list-group">
-            <li class="list-group-item list-group-item-success">Previous tournaments</li>
+            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Previous tournaments</li>
 
 
-            <li class="list-group-item list-group-item-info"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li class="list-group-item list-group-item-info">
+            <li class="list-group-item"><img id="logo"  src="~/img/csgo-logo.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+            <li class="list-group-item">
                 <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> This is a info list group item <span style="color:red;" class="glyphicon glyphicon-minus"></span>
             </li>
+            
         </ul>
     </div>
-
+    
 </body>
 </html>
