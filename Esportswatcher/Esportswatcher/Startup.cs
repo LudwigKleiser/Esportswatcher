@@ -24,12 +24,12 @@ namespace Esportswatcher
         {
             loggerFactory.AddConsole();
 
-            if (env.IsDevelopment())
-            {
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
                 app.UseStaticFiles();
                 app.UseMvcWithDefaultRoute();
-                app.UseDeveloperExceptionPage();
-            }
 
            
         }

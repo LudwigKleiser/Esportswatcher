@@ -15,5 +15,9 @@ namespace Esportswatcher.Controllers
         {
             return View();
         }
+        public IActionResult GameList()
+        {
+            return View();
+        }
     }
 }
