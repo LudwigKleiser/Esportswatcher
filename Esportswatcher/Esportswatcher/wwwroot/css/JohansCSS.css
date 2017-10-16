@@ -6,4 +6,12 @@
     width: 650px;
     height: 300px;
     border-radius: 5px;
+    -o-transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+
+.bigImage:hover {
+    opacity: 0.6;
 }
