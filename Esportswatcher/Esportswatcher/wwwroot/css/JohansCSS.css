@@ -2,25 +2,6 @@
 
 }
 
-/*.bigImage {
-    width: 650px;
-    height: 300px;
-    border-radius: 4px;
-}*/
-
-.bigImage:hover {
-    opacity: 0.4;
-}
-
-.bigImage:hover span {
-    top: 50%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-}
-
-
 .bigImage {
     width: 650px;
     height: 300px;
