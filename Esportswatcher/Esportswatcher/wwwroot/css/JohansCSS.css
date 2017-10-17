@@ -6,15 +6,7 @@
     height: 100%;
 }
 
-@media(max-width: 767px) {
-    #navContainer {
-        padding: 0;
-    }
 
-    #myNavbar {
-        padding: 0;
-    }
-}
 
 .navbar-custom {
     background-color: #000000;
