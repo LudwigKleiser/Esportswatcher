@@ -12,7 +12,7 @@
 
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -35,55 +35,55 @@
             </div>
         </div>
     </nav>
+    <div class="container-fluid">
+        <div id="followedContainer">
+            <ul id="box" class="list-group">
+                <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Followed games</li>
 
-    <div id="followedContainer">
-        <ul id="box" class="list-group">
-            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Followed games</li>
+
+                <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/pubg-logo1.png" />Playerunknown's battlegrounds <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+                <li id="boxInBox" class="list-group-item">
+                    <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> League of legends <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="ongoingContainer">
+            <ul id="box" class="list-group">
+                <li style="background-color: black; color:white;" class="list-group-item list-group-item-success"><h1>Ongoing tournaments</h1></li>
 
 
-            <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/pubg-logo1.png" />Playerunknown's battlegrounds <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li id="boxInBox" class="list-group-item">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> League of legends <span style="color:red;" class="glyphicon glyphicon-minus"></span>
-            </li>
-        </ul>
+                <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Worlds quarter finals <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+                <li id="boxInBox" class="list-group-item">
+                    <img id="logo" src="~/img/csgo-logo.png" />Eleague season 7 Play-Ins  <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+                    </
+            </ul>
+        </div>
+
+        <div id="upcomingContainer">
+            <ul id="box" class="list-group">
+                <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Upcoming tournaments</li>
+
+
+                <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/pubg-logo1.png" />  Twitchcon invitational  10/11-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+                <li id="boxInBox" class="list-group-item">
+                    <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Lcs season 8 16/2-18 <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="previousContainer">
+            <ul id="box" class="list-group">
+                <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Previous tournaments</li>
+
+
+                <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/csgo-logo.png" /> Pgl championship 25/9-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
+                <li id="boxInBox" class="list-group-item">
+                    <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Lcs season 7 16/9-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span>
+                </li>
+
+            </ul>
+        </div>
     </div>
-
-    <div id="ongoingContainer">
-        <ul id="box" class="list-group">
-            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Ongoing tournaments</li>
-
-
-            <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Worlds quarter finals <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li id="boxInBox" class="list-group-item">
-                <img id="logo" src="~/img/csgo-logo.png" />Eleague season 7 Play-Ins  <span style="color:red;" class="glyphicon glyphicon-minus"></span>
-                </
-        </ul>
-    </div>
-
-    <div id="upcomingContainer">
-        <ul id="box" class="list-group">
-            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Upcoming tournaments</li>
-
-
-            <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/pubg-logo1.png" />  Twitchcon invitational  10/11-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li id="boxInBox" class="list-group-item">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Lcs season 8 16/2-18 <span style="color:red;" class="glyphicon glyphicon-minus"></span>
-            </li>
-        </ul>
-    </div>
-
-    <div id="previousContainer">
-        <ul id="box" class="list-group">
-            <li style="background-color: black; color:white;" class="list-group-item list-group-item-success">Previous tournaments</li>
-
-
-            <li id="boxInBox" class="list-group-item"><img id="logo" src="~/img/csgo-logo.png" /> Pgl championship 25/9-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span></li>
-            <li id="boxInBox" class="list-group-item">
-                <img id="logo" src="~/img/League-of-Legends-Logo-Transparent-Background.png" /> Lcs season 7 16/9-17 <span style="color:red;" class="glyphicon glyphicon-minus"></span>
-            </li>
-
-        </ul>
-    </div>
-
 </body>
 </html>
