@@ -34,17 +34,40 @@
                 <ul id="box" class="nav navbar-nav">
                     @if (ViewBag.active == "GameList")
                     {
-                        <li class="active"><a href="#">Games</a></li>
+                        <li class="active"><a href="/user/gamelist/">Games</a></li>
                     }
                     else
                     {
-                        <li><a href="GameList">Games</a></li>
+                        <li><a href="/user/GameList">Games</a></li>
                     }
-                    <li><a href="#">Tournaments</a></li>
-                    <li><a href="#">Streams</a></li>
+                    @if (ViewBag.active == "Tournaments")
+                    {
+                        <li class="active"><a href="/user/gamelist/">Tournaments</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="GameList">Tournaments</a></li>
+                    }
+                    @if (ViewBag.active == "Streams")
+                    {
+                        <li class="active"><a href="#">Streams</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="GameList">Streams</a></li>
+                    }
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    @if (ViewBag.active == "Profile")
+                    {
+                        <li class="active"><a href="/user/profile/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="/user/profile/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    }
+
+                    
                 </ul>
             </div>
         </div>

@@ -13,7 +13,7 @@ namespace Esportswatcher.Controllers
         // GET: /<controller>/
         public IActionResult Profile()
         {
-            ViewBag.active = "";
+            ViewBag.active = "Profile";
             return View();
         }
         public IActionResult GameList()
